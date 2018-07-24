@@ -1,3 +1,4 @@
+// Package osuapi implements the osu! API in Go
 package osuapi
 
 import (
