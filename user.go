@@ -5,7 +5,7 @@ import "time"
 // User - Contains information for osu! players
 type User struct {
 	Error        string       `json:"error"`
-	UserID       string       `json:"user_id,string"`
+	UserID       string       `json:"user_id"`
 	Username     string       `json:"username"`
 	Count300     int          `json:"count300,string"`
 	Count100     int          `json:"count100,string"`
