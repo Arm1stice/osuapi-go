@@ -1,7 +1,5 @@
 package osuapi
 
-import "time"
-
 // User - Contains information for osu! players
 type User struct {
 	Error        string       `json:"error"`
@@ -29,9 +27,9 @@ type User struct {
 
 // UserEvents - A type for the "events" field in a user's profile
 type UserEvents struct {
-	DisplayHTML  string    `json:"display_html"`
-	BeatmapID    int       `json:"beatmap_id,string"`
-	BeatmapSetID int       `json:"beatmapset_id,string"`
-	Date         string    `json:"date"`
-	EpicFactor   int       `json:"epicfactor,string"`
+	DisplayHTML  string `json:"display_html"`
+	BeatmapID    int    `json:"beatmap_id,string"`
+	BeatmapSetID int    `json:"beatmapset_id,string"`
+	Date         string `json:"date"`
+	EpicFactor   int    `json:"epicfactor,string"`
 }
