@@ -32,6 +32,6 @@ type UserEvents struct {
 	DisplayHTML  string    `json:"display_html"`
 	BeatmapID    int       `json:"beatmap_id,string"`
 	BeatmapSetID int       `json:"beatmapset_id,string"`
-	Date         time.Time `json:"date,string"`
+	Date         string    `json:"date"`
 	EpicFactor   int       `json:"epicfactor,string"`
 }
