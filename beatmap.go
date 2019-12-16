@@ -23,10 +23,11 @@ type Beatmap struct {
 	LanguageID       int       `json:"language_id,string"`
 	Title            string    `json:"title"`
 	TotalLength      float32   `json:"total_length,string"`
-	MD5              string    `json:"version"`
-	Mode             int       `json:"file_md5,string"`
-	Tags             string    `json:"mode"`
-	FavoriteCount    int       `json:"tags,string"`
+	Version          string    `json:"version,string"`
+	MD5              string    `json:"file_md5,string"`
+	Mode             int       `json:"mode,string"`
+	Tags             string    `json:"tags,string"`
+	FavoriteCount    int       `json:"favourite_count,string"`
 	PlayCount        int       `json:"playcount,string"`
 	PassCount        int       `json:"passcount,string"`
 	MaxCombo         int       `json:"max_combo,string"`
